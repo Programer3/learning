@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Task Manager by AG</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Task Manager</h1>
+
+    <!-- Form for adding new tasks -->
+    <form id="task-form">
+      <!-- <label for="task-name">Task Name:</label>
+      <input type="text" id="task-name" required/> -->
+
+      <div class="inputbox">
+        <input required="required" type="text">
+        <span>Task Name</span>
+        <i></i>
+      </div>
+      <div class="inputbox">
+        <input required="required" type="text">
+        <span>Task Description</span>
+        <i></i>
+      </div>
+      <!-- <label for="task-desc">Task Description:</label>
+      <textarea id="task-desc" required></textarea> -->
+      <button type="submit", id="button-78">Add Task</button>
+    </form>
+
+    <!-- List of current tasks -->
+    <ul id="task-list"></ul>
+
+    <script src="app.js"></script>
+  </body>
+</html>
