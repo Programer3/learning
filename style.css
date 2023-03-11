@@ -1,4 +1,14 @@
 /* Global styles */
+
+/* CSS HEX */
+:root {
+  --red-pantone: #e63946ff; /* error, del color */
+  --honeydew: #f1faeeff; /* text color */
+  --non-photo-blue: #a8dadcff; /* edit btn color */
+  --cerulean: #457b9dff; /* fields, etc accent color */
+  --berkeley-blue: #1d3557ff; /* background color */
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
